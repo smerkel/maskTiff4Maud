@@ -3,6 +3,8 @@ Utility to prepare tiff files before loading data into the Rietveld refinement s
 
 How does this work? MAUD ignores pixels with a -1 intensity. Hence, this software sets a -1 intensity value at all points that should be masked.
 
+This program is written in python and should work on most platforms. Download maskTiff4Maud.py and run it with python. It is the only file you need.
+
 How to proceed?
 
 Create a mask, with Dioptas for instance, and save it,
